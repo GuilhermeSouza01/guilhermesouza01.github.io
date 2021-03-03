@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #601D54;
+    border-bottom: 10px solid #000000;
+    padding: 10px 20px;
+}
+
+
+.site-logo {
+    width: 60px;
+    height: 60px;
+}
