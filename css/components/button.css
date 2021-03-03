@@ -1,0 +1,14 @@
+.button-download-cv {
+    display: inline-block;
+    padding: 18px 20px;
+    color: #FFF;
+    background-color: #7364CE;
+    box-shadow: 5px 5px 0px #000000;
+    margin-right: 0;
+    transition: transform  200ms linear, background-color 300ms ease-in-out;
+    text-decoration: none;
+}
+.button-download-cv:hover {
+    transform: scale(1.08);
+    background-color: #985277;
+}
