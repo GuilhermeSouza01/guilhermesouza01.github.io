@@ -4,3 +4,9 @@
     color: #7364CE;
     text-shadow: 4px 4px 0px #000000;
 }
+.principal-title.-second {
+    text-align: center;
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: none;
+}
