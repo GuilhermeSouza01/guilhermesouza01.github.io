@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/components/skills-section.css">
     <link rel="stylesheet" href="css/components/tech-skills.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/card-project.css">
 </head>
 <body>
     <header class="header">
@@ -48,15 +50,59 @@
     <section class="skills-section">
         <h1 class="principal-title -second">Skills</h1>
 
-        <article class="tech-skills">
-                <img class="icon" src="assets/images/html.svg" alt="Html-image">
+        <div class="wrapper-skill">
+            <article class="tech-skills">
+                    <img class="icon" src="assets/images/html.svg" alt="Html-image">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="tech-skills">
+                    <img class="icon" src="assets/images/css-3.svg" alt="Logo do Css">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="tech-skills">
+                    <img class="icon" src="assets/images/js.png" alt="Logo do JavaScript">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="tech-skills">
+                <img class="icon" src="assets/images/reactjs.svg" alt="Logo do React">
             <div class="right">
-                <h3 class="title">HTML</h3>
+                <h3 class="title">ReactJs</h3>
                 <progress class="progress-bar" max="100" value="70">
                     70%
                 </progress>
+                
             </div>
-        </article>
+            </article>
+            <article class="tech-skills">
+            <img class="icon" src="assets/images/nodejs.svg" alt="Logo do NodeJs">
+        <div class="right">
+            <h3 class="title">NodeJs</h3>
+            <progress class="progress-bar" max="100" value="70">
+                70%
+            </progress>
+            
+        </div>
+            </article>
+        </div>
     </section>
+
+        <div class="card-project">
+
+        </div>
 </body>
 </html>

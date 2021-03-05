@@ -1,7 +1,10 @@
 .skills-section {
     background: #7364CE;
-    height: 730px;
+    height: 500px;
     border-bottom: 10px solid #601D54;
     padding-top: 50px;
     padding-bottom: 100px;
+}
+.skills-section .principal-title {
+    margin-bottom: 60px;
 }
