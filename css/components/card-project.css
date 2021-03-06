@@ -1,0 +1,23 @@
+.card-project {
+    background: #601D54;
+    box-shadow: 10px 10px 0px #c1bddb;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-project .project-logo {
+    padding: 14px 15px 14px 20px;
+    width: 210.5px;
+    height: 245.5px
+}
+
+.card-project.-blink-pink {
+    background-color: #F7567C;
+}
+
+.card-project.-op-purple {
+    background-color: #C09BD8;
+}
